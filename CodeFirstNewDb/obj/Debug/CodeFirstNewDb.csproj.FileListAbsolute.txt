@@ -1,0 +1,12 @@
+C:\Users\Gunnar\source\repos\CodeFirstNewDb\obj\Debug\CodeFirstNewDb.csprojAssemblyReference.cache
+C:\Users\Gunnar\source\repos\CodeFirstNewDb\obj\Debug\CodeFirstNewDb.csproj.CoreCompileInputs.cache
+C:\Users\Gunnar\source\repos\CodeFirstNewDb\bin\Debug\CodeFirstNewDb.exe.config
+C:\Users\Gunnar\source\repos\CodeFirstNewDb\bin\Debug\CodeFirstNewDb.exe
+C:\Users\Gunnar\source\repos\CodeFirstNewDb\bin\Debug\CodeFirstNewDb.pdb
+C:\Users\Gunnar\source\repos\CodeFirstNewDb\bin\Debug\EntityFramework.dll
+C:\Users\Gunnar\source\repos\CodeFirstNewDb\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Gunnar\source\repos\CodeFirstNewDb\bin\Debug\EntityFramework.xml
+C:\Users\Gunnar\source\repos\CodeFirstNewDb\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Gunnar\source\repos\CodeFirstNewDb\obj\Debug\CodeFirstNewDb.csproj.CopyComplete
+C:\Users\Gunnar\source\repos\CodeFirstNewDb\obj\Debug\CodeFirstNewDb.exe
+C:\Users\Gunnar\source\repos\CodeFirstNewDb\obj\Debug\CodeFirstNewDb.pdb
