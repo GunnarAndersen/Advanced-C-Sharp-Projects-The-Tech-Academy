@@ -1,0 +1,31 @@
+﻿@using FinalCSharpProject.ViewModels
+@model List<ClientsVm>
+
+<div class="row no-gutters m-3">
+    <div class="card col-sm-12 col-md-10 col-lg-6 mx-auto shadow">
+        <div class="card-header text-center">
+            <h5 class="m-0">Clients</h5>
+        </div>
+        <div class="card-body">
+            @foreach (var clientsVm in Model)
+            {
+
+                <div class="row" align="center">
+                    <div class="col" align="center">
+                        @clientsVm.FirstName
+                    </div>
+                    <div class="col" align="center">
+                        @clientsVm.LastName
+                    </div>
+                    <div class="col" align="center">
+                        @clientsVm.EmailAddress
+                    </div>
+                    <div class="col" align="center">
+                        @clientsVm.Price
+                    </div>
+                </div>
+
+            }
+        </div>
+    </div>
+</div>

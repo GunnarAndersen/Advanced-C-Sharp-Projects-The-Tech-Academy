@@ -1,0 +1,80 @@
+﻿<div class="row no-gutters m-3">
+    <div class="card col-sm-12 col-md-10 col-lg-6 mx-auto shadow">
+        <div class="card-header text-center">
+            <h5 class="m-0">Get your quote today!</h5>
+        </div>
+        <div class="card-body">
+            @using (Html.BeginForm("Calculate", "Home", FormMethod.Post)) //
+             {
+            <div class="row no-gutters">
+                
+                <div class="form-group col-md-12">
+                    <h1>First Name:</h1>
+
+                    <input name="FirstName" type="text" class="form-control" placeholder="First Name" />
+                </div>
+                
+                <div class="form-group col-md-12">
+                    <h1>Last Name:</h1>
+
+                    <input name="LastName" type="text" class="form-control" placeholder="Last Name" />
+                </div>
+                
+                <div class="form-group col-md-12">
+                    <h1>Email Address:</h1>
+
+                    <input name="EmailAddress" type="email" class="form-control" placeholder="Email Address" />
+                </div>
+                
+                <div class="form-group col-md-12">
+                    <h1>Date Of Birth:</h1>
+
+                    <input name="DateofBirth" type="date" min="1900-01-01" max="2003-12-31" class="form-control" placeholder="Date of Birth" />
+                </div>
+                
+                <div class="form-group col-md-12">
+                    <h1>Car Year:</h1>
+
+                    <input name="CarYear" type="number" class="form-control" max="2019" placeholder="Car Year" />
+                </div>
+                
+                <div class="form-group col-md-12">
+                    <h1>Car Make:</h1>
+
+                    <input name="CarMake" type="text" class="form-control" placeholder="Car Make" />
+                </div>
+                
+                <div class="form-group col-md-12">
+                    <h1>Car Model:</h1>
+
+                    <input name="CarModel" type="text" class="form-control" placeholder="Car Model" />
+                </div>                    
+                <div class="form-group col-md-5">
+                    <h1>Have you ever had a DUI?</h1>
+                    <select name="DUI">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                        </select>
+                </div>
+                
+                <div class="form-group col-md-12">
+                    <h1>How many speeding tickets have you had?</h1>
+
+                    <input name="SpeedingTickets" type="number" class="form-control" placeholder="Number of Speeding Tickets" />
+                </div>
+                
+                <div class="form-group col-md-12">
+                    <h1>Full Insurance, or Liability?</h1>
+                    <select name="FullOrLiability">
+                    <option value="full">Full Coverage</option>
+                    <option value="liability">Liability</option>
+                    </select> <!---I dont know if this is the type I shuld use I might change it-->
+                </div>
+                
+                <button type="submit" class="btn btn-block btn-primary">Submit</button>
+            </div>
+             }
+           
+        </div>
+    </div>
+</div>
